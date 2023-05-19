@@ -1,0 +1,502 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header{
+    background: url("./Assets/Photos/futuristic-bg.png");
+    width: 100vw;
+    height: 100vh;
+}
+/* Navbar */
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+}
+
+.list{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 500px;
+    font-size: 20px;
+}
+
+.navbutton{
+    width: 100px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0);
+    color:#fff;
+    border: 0;
+    font-size: 17px;
+}
+
+.navbutton:nth-child(2n){
+    background-color: #f4694c;
+}
+/* Navbar ends */
+
+/* Section 1 */
+.sec1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+}
+
+.sec1left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 400px;
+}
+
+.l1text1{
+    width: 540px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.l1text2{
+    width: 400px;
+    color: #948f90;
+}
+
+.l1btn{
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    background-color: #f4694c;
+    font-size: 19px;
+    border: 1px solid #f4694c;
+    margin-right: 10px;
+}
+
+.l1btn:nth-child(2n){
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+}
+
+.sec1right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+}
+
+.r1div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 350px;
+    margin-top: 100px;
+    position: relative;
+}
+
+.r1line{
+    width: 50px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+
+.r1text{
+    width: 200px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.r1div>svg{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+/* Section 1 ends */
+
+/* Section 2 */
+.sec2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #fff;
+    align-items: center;
+    height: 80vh;
+}
+
+.sec2text{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    width: 700px;
+    font-weight: 600;
+}
+
+.sec2boxes{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90vw;
+}
+
+.sec2boxes>div{
+    width: 250px;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.game1{
+    background-image: url("./Assets/Photos/image\ 2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: -200px;
+}
+.game2{
+    background-image: url("./Assets/Photos/image\ 4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: -150px;
+}
+.game3{
+    background-image: url("./Assets/Photos/image\ 3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: -100px;
+}
+.game4{
+    background-image: url("./Assets/Photos/Rectangle\ 56.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: -200px;
+}
+
+.sec2boxes>div>div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.sec2boxes>div>div>div{
+    display: flex;
+    flex-direction: column;
+}
+
+.gametitle{
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.genre{
+    font-weight: 600;
+}
+
+.download{
+    width: 90px;
+    height: 40px;
+    background-color: #f4694c;
+    color: #fff;
+    border: 0;
+}
+/* Section 2 ends */
+
+/* Section 3 */
+.sec3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50vh;
+    background-color: #fff;
+}
+
+.sec3>img{
+    width: 500px;
+    height: 300px;
+}
+
+.sec3>div{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 300px;
+    width: 500px;
+}
+
+.sec3text1{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.sec3text2{
+    color: #948f90;
+}
+
+.sec3btn{
+    width: 150px;
+    height: 50px;
+    background-color: #f4694c;
+    border: 1px solid #f4694c;
+    color: #fff;
+    font-size: 16px;
+}
+
+.sec3btn:nth-child(2n){
+    background-color: #fff;
+    color: #f4694c;
+}
+/* Section 3 ends */
+
+/* Section 4 */
+.sec4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30vh;
+    background-color: #fff;
+    padding-top: 50px;
+}
+
+.sec4>span{
+    font-size: 40px;
+    width: 480px;
+    font-weight: 600;
+}
+
+.sec4>div{
+    display: flex;
+}
+
+.sec4>div>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fde1db;
+    width: 46px;
+    height: 46px;
+    margin-right: 5px;
+}
+
+.sec4>div>div:nth-child(2n){
+    background-color: #f4694c;
+}
+/* Section 4 ends */
+
+/* Section 5 */
+.sec5{
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    row-gap: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.sec5>div{
+    width:650px;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sec5>div>img{
+    width: 250px;
+}
+
+.sec5>div>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 20px;
+}
+.sec5title{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.sec5genre{
+    color: #f4694c;
+    font-size: 20px;
+}
+
+.sec5text{
+    color: #948f90;
+    font-size: 18px;
+}
+
+.sec5btn{
+    width: 150px;
+    height: 50px;
+    color:#fff;
+    background-color: #f4694c;
+    font-size: 16px;
+    border: 0;
+}
+/* Section 5 ends */
+
+/* Section 6 */
+.sec6{
+    background-color: #000308;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 80px;
+}
+
+.sec6>h1{
+    text-align: center;
+    margin: 0;
+    padding-top: 50px;
+}
+
+h1>span{
+    width: 450px;
+}
+
+.sec6>div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sec6>h1{
+    color:#fff;
+    font-size: 50px;
+    width: 600px; 
+}
+
+.item1{
+    margin-right: 30px;
+}
+
+.item1>img{
+    width: 354px;
+    height: 450px;
+}
+
+.item2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.item2>span{
+    width: 800px;
+    height: 150px;
+    color: #948f90;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 40px;
+}
+
+.item2a{
+    display: flex;
+    justify-content: space-between;
+    width: 850px;
+}
+
+.item3>img{
+    width: 400px;
+    height: 450px;
+    
+} 
+
+.item4{
+    display: flex;
+    align-items: flex-end;
+}
+
+.item4>img{
+    width: 400px;
+    height: 320px;
+}
+
+.sec6>svg{
+    position: absolute;
+    top: 38%;
+    left:39%;
+    z-index: -1;
+}
+/* Section 6 ends */
+
+/* Section 7 */
+.sec7{
+    background: url("./Assets/Photos/Rectangle\ 606.png");
+    background-size: 100vw 437px;
+    height: 437px;
+    background-color: #000308;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sec7text1{
+    color: #fff;
+    font-size: 40px;
+    width: 500px;
+    text-align: center;
+}
+
+.sec7text2{
+    width:400px;
+    text-align: center;
+    color: #948f90;
+}
+
+.sec7>button{
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    background-color: #f4694c;
+    border: 1px solid #f4694c;
+    font-size: 18px;
+}
+/* Section 7 ends */
+
+/* Footer */
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #000308;
+    width: 100vw;
+    color: #948f90;
+    padding: 50px 0;
+}
+
+.footerdiv:nth-child(1){
+    display: flex;
+    flex-direction: column;
+}
+
+.footerdiv:nth-child(1)>span{
+    width: 250px;
+    margin: 20px 0;
+}
+
+.footerhead{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.footerlist{
+    list-style-type: none;
+    padding: 0;
+}
+/* Footer ends */

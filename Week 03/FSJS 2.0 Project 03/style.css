@@ -1,0 +1,161 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    overflow: hidden;
+}
+.nav-button:hover, .button-email:hover{
+    color: #fff;
+    background-color: black;
+    cursor: pointer;
+}
+.button-join:hover{
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-container div img{
+    height: 40px;
+    width: 120px;
+}
+
+.list{
+    list-style-type: none;
+    display: flex;
+}
+
+.list-item{
+    margin-right: 25px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.list-item:hover, img:hover{
+    cursor: pointer;
+}
+
+.button-group{
+    display: flex;
+}
+
+.search-icon{
+    position: relative;
+    top: 5px;
+    margin-right: 10px;
+    height: 30px;
+}
+
+.nav-button{
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 18px;
+    height: 40px;
+    width: 130px;
+}
+
+.hero img{
+    position: relative;
+    top: -370px;
+    left: 120px;
+    height: 500px;
+    width: 428px;
+}
+
+.square{
+    position: relative;
+    top: 210px;
+    left: 210px;
+}
+
+.hero-container-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+    width: 650px;
+    position: relative;
+    top: -850px;
+    left: 750px;
+}
+
+.hero-heading{
+    font-size: 50px;
+    margin: 0;
+}
+
+.button-email{
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 18px;
+    height: 40px;
+    width: 200px;
+}
+
+.button-join{
+    background-color: black;
+    border-radius: 10px;
+    font-size: 18px;
+    height: 40px;
+    width: 110px;
+    color: #fff;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -50px;
+}
+
+.globe{
+    position: relative;
+    left: 200px;
+    top:-330px;
+}
+
+.globe img{
+    height: 60px;
+}
+
+.star1{
+    position: relative;
+    left: 900px;
+    top: -310px;
+}
+.star1 img{
+    height: 50px;
+}
+
+.star2{
+    position: relative;
+    left: 300px;
+    top: 170px;
+}
+
+.star2 img{
+    height: 35px;
+}
+
+p{
+    margin: 0;
+    text-align: center;
+}
+
+.contact{
+    position: relative;
+    top: 40px;
+}
